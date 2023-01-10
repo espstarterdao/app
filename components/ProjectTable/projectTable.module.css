@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+.table {
+  border: solid 1px white;
+  border-radius: 50px;
+}
+
+.head {
+  background: #0ab07e;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.head_cell {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.project_cell {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_cell img {
+  padding: 0 1rem;
+}
+
+.project_cell p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.project_cell span {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.type_cell_box_dex,
+.type_cell_box_nft,
+.type_cell_box_game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.type_cell_box_dex {
+  background: #2f4927;
+}
+
+.type_cell_box_nft {
+  background: #4b3d18;
+}
+
+.type_cell_box_game {
+  background: #4b2e2e;
+}
+
+.type_cell_typo_dex,
+.type_cell_typo_nft,
+.type_cell_typo_game {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.type_cell_typo_dex {
+  color: #72f34b;
+}
+
+.type_cell_typo_nft {
+  color: #feb800;
+}
+
+.type_cell_typo_game {
+  color: #ff6d6e;
+}
+
+.participants_cell_typo,
+.total_cell_typo,
+.price_cell_typo,
+.ath_cell_typo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.token_cell_typo_community,
+.token_cell_typo_public {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.token_cell_typo_community {
+  color: #ff9c00;
+}
+
+.token_cell_typo_public {
+  color: #72f34b;
+}
+
+.chain_cell_typo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}

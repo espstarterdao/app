@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap");
+
+.footer_container {
+  display: flex;
+  height: 328px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  max-width: 40%;
+}
+
+.footer_title {
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_title p {
+  padding: 0 0.3vh;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 127%;
+  color: rgba(255, 255, 255, 0.7);
+  flex: 0 1 auto;
+}
+
+.links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  color: white;
+}
+
+.links .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem 0 2rem 3rem;
+}
+
+.links .items p {
+  padding: 0.5rem 0;
+}
+
+.main_item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 127%;
+  margin-bottom: 1.5rem;
+}
+
+.main_item ~ p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 127%;
+  color: rgba(255, 255, 255, 0.7);
+}

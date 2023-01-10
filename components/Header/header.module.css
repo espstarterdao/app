@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+
+.header {
+  display: flex;
+  background-color: #0a0a15;
+  color: white;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: white;
+}
+
+.header_title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-left: 0.3vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 4;
+}
+
+.navigation_link {
+  text-decoration: none;
+}
+
+.navigation_link:visited {
+  color: white;
+}
+
+.navigation_item {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.155em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 3;
+}
+
+.button {
+  color: white;
+  border-color: white;
+}
+
+.connect_wallet {
+  color: black;
+  background-color: #ff9c00;
+}

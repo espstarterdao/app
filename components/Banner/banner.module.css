@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.banner_container {
+  background-color: #0a0a15;
+  background-image: url("/images/ESPStarter_intro.png");
+  background-size: cover;
+  color: white;
+  display: flex;
+  margin: 0.5em;
+  flex-direction: column;
+}
+
+.info_container {
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  opacity: 0.8;
+  padding-left: 1rem;
+}
+
+.text span {
+  color: #0075ff;
+}
+
+.image {
+  border-radius: 15px;
+  margin: 3rem 3rem 0 3rem;
+}
+
+.scrolling {
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(15px);
+}
+
+.scrolling button {
+  color: #ff9c00;
+  border-color: #ff9c00;
+}
